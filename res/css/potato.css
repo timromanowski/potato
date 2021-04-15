@@ -7,5 +7,14 @@
     transform: translate(-50%, -50%);
     height: 310px;
     width: 307px;
-    background-image: url('./potato2.png');
+    background-image: url('../images/potato2.png');
+}
+#colorhehe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+
+
 }
