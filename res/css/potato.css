@@ -8,6 +8,7 @@
     height: 310px;
     width: 307px;
     background-image: url('../images/potato2.png');
+    z-index: 2
 }
 #colorhehe {
     height: 100%;
@@ -17,3 +18,20 @@
     z-index: -1
 
 }
+
+
+#warning {
+height: 50px;
+width: 50px;
+position: relative;
+top: 50%;
+left: 44%;
+z-index: 3;
+margin: 0;
+font-size: 50px;
+font-color: aqua
+
+
+}
+
+

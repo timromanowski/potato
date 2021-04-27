@@ -3,18 +3,19 @@ $(function() {
 
 
     $(document).mousedown(function (evt) {
+        $('#warning').hide()
         $("#smth").animate({top: evt.offsetY, left: evt.offsetX});
         var colorR = Math.floor((Math.random() * 256));
         var colorG = Math.floor((Math.random() * 256));
         var colorB = Math.floor((Math.random() * 256));
         $("#colorhehe").css("background-color", "rgb(" + colorR + "," + colorG + "," + colorB + ")");
+
     });
 
+let moveBy = 10;
 
-    let moveBy = 10;
 
-
-    $(document).keydown(function (evt) {
+ $(document).keydown(function (evt) {
         var potato =  document.querySelector('#smth');
         switch (evt.key) {
             case 'ArrowLeft' :
