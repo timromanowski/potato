@@ -3,6 +3,8 @@ $(function() {
 
 
     $(document).mousedown(function (evt) {
+        $('#start').hide()
+        $('#startScreen').hide()
         $('#warning').hide()
         $("#smth").animate({top: evt.offsetY, left: evt.offsetX});
         var colorR = Math.floor((Math.random() * 256));
@@ -31,6 +33,7 @@ let moveBy = 10;
                 potato.style.top = parseInt(potato.style.top) + moveBy + 'px';
                 break;
 
-        }
+        } 
     });
 });
+

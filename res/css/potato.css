@@ -8,30 +8,46 @@
     height: 310px;
     width: 307px;
     background-image: url('../images/potato2.png');
-    z-index: 2
+    z-index: 1;
 }
 #colorhehe {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
     position: absolute;
     z-index: -1
+
 
 }
 
 
 #warning {
-height: 50px;
-width: 50px;
-position: relative;
-top: 50%;
-left: 44%;
-z-index: 3;
-margin: 0;
-font-size: 50px;
-font-color: aqua
-
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50%;
+    left: 44%;
+    z-index: 3;
+    margin:0;
+    font-size: 50px;
 
 }
 
 
+
+#startScreen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: lavender;
+}
+
+#start{
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    z-index: 3;
+    margin:0;
+    font-size: 50px;
+
+}
